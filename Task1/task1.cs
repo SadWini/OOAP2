@@ -40,7 +40,6 @@ namespace OOAP_Course2
             occupant = null;
         }
 
-        // Абстрактный метод, который обязует наследников реализовать свою логику
         protected abstract void ApplyEffect(Unit unit);
     }
 
